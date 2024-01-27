@@ -10,7 +10,7 @@ terraform {
     bucket = "ramyawebsitebucket"
     key    = "foreach"
     region = "us-east-1"
-    dynamodb_table = "ramyawebsite"
+    dynamodb_table = "website-locking"
   }
 }
 
